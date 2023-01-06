@@ -1,0 +1,37 @@
+@media screen and (max-width:1024px) {
+    .lien {
+        display: none;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        text-align: center;
+    }
+    .totale {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background: white;
+        height: fit-content;
+        gap: 2rem;
+        flex-direction: column;
+    }
+    select, input , #searsh {
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .btn {
+        display: none;
+    }
+    header{
+        justify-content: center;
+    }
+    .hero {
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 30%);
+    }
+    
+}
