@@ -17,7 +17,7 @@ body {
     margin: 0;
     height: 100vh;
     background: #ebebeb71;
-    background: url(/assets/img/bg2.jpg);
+    background: url(/assets/img/bg2.jpg),url(img/633.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
