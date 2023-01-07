@@ -1,9 +1,10 @@
+<!-- ismailaib :) :) :) :) :) :) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scale=none">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alsa | Agadir</title>
     <!-- font-awesom -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,11 +18,10 @@
         <img src="assets/img/logo.png" alt="alsa-img" id="logo">
         <div class="lien">
             <ul class="navbar">
-                <li><a href="#home">Home</a></li>        
-                <li><a href="#about">About</a></li>         
-                <li><a href="#services">Services</a></li>            
-                <li><a href="#resume">E&E</a></li>           
-                <li><a href="#contactme" id="contact">Contact</a></li>           
+                <li><a href="#hero">Home</a></li>        
+                <li><a href="#location">location</a></li>         
+                <li><a href="#plan">plans</a></li>            
+                <li><a href="#contact">Contact</a></li>           
             </ul>
         </div>
         <div class="btn">
@@ -41,7 +41,11 @@
         </div>
         <h5><i class="fa-solid fa-arrow-down"></i>SCROLL DOWN</h5>
     </section>
-    <section class="totale">
+    <section class="location" id="location">
+        <div class="location-title">
+            <h2>I want to go to...</h2>
+        </div>
+        <div class="location-input">
             <select name="city" placeholder="Select Location" id="">
                 <option value="Select Location">Select Location</option>
                 <option value="agadir">Agadir</option>
@@ -52,7 +56,46 @@
             <input type="text" onfocus="(this.type='date')" placeholder="Pick Up Date" name="" id="">
             <input type="text" onfocus="(this.type='date')" placeholder="Return Date" name="" id="">
             <button type="submit" id="searsh">Searsh</button>
+        </div> 
     </section>
-    
+    <section class="plan" id="plan">
+        <div class="plan-title">
+            <h2>We make your journey easier...</h2>
+        </div>
+        <div class="plan-cards">
+            <div class="card-1">
+                <div class="card-img">
+                    <img src="assets/img/carte_ikhlas.png" alt="">
+                </div>
+                <div class="card-content">
+                    <h3>Carte Ikhlas</h3>
+                    <p>La carte ikhlas vous permet de vous déplacer librement et en toute sécurité sur tout le réseau en
+                    vous offrant une réduction jusqu’à 17% sur le tarif du ticket.</p>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="card-img">
+                    <img src="assets/img/card2.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h3>Carte d’étudiant</h3>
+                    <p>La carte d’étudiant ALSA est disponible dans nos agences commerciales, ou vous pouvez renouveler votre abonnement.</p>
+                </div>
+            </div>
+            <div class="card-3">
+                <div class="card-img">
+                    <img src="assets/img/card3.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h3>FAQS</h3>
+                    <p>Une section dans laquelle nous répondons aux demandes, aux inquiétudes ou aux objections dont notre clients nous font part fréquemment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h3>If you have any questions, suggestions or complaints, do not hesitate to contact us.</h3>
+        <button id="searsh">Contact</button>
+    </section>
 </body>
 </html>

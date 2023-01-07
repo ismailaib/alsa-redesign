@@ -9,7 +9,7 @@
         gap: 3rem;
         text-align: center;
     }
-    .totale {
+    .location-input{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -19,8 +19,14 @@
         gap: 2rem;
         flex-direction: column;
     }
+
     select, input , #searsh {
         width: 100%;
+    }
+    section.location {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 }
 @media screen and (max-width:768px) {
@@ -31,7 +37,15 @@
         justify-content: center;
     }
     .hero {
-        clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 30%);
+        clip-path: polygon(0 10%, 100% 8%, 100% 100%, 0% 100%);
     }
-    
+    .card-1,.card-2, .card-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0;
+    }
+    .contact {
+        clip-path: none;
+    }
 }
